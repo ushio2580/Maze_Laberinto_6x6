@@ -31,7 +31,7 @@ Reinforcement learning project comparing **DQN** and **Dyna-Q** in a 6x6 maze.
 
 ## 📊 Results
 
-*(Update this section after running training and tests.)*
+
 
 ### 📡 **DQN - Test Episode**
 
