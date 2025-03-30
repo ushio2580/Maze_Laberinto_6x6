@@ -24,7 +24,18 @@ Reinforcement learning project comparing DQN and Dyna-Q in a 6x6 maze.
 
 ## Results
 *(Update after running)*
+- ![Descripción del GIF](assets/dqn/test_ep_1.gif)
+-  ![Descripción del GIF](assets/tu-archivo.gif)
+-  ![Descripción del GIF](assets/tu-archivo.gif)
+
+
+
+
 - **DQN**: Success Rate: 100%, Avg Steps: 10.00
+
+-  ![Descripción del GIF](assets/tu-archivo.gif)
+-  ![Descripción del GIF](assets/tu-archivo.gif)
+-  ![Descripción del GIF](assets/tu-archivo.gif)
 - **Dyna-Q**: Success Rate: 100%, Avg Steps: 10.00
 
 ## License
