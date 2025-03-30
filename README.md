@@ -1,67 +1,74 @@
-```markdown
+
 # Maze Laberinto 6x6
 
-Reinforcement learning project comparing DQN and Dyna-Q in a 6x6 maze.
+Proyecto de aprendizaje por refuerzo comparando **DQN** y **Dyna-Q** en un laberinto de 6x6.
 
-## Installation
+## 📦 Instalación
 
-1. **Clone the repo:**
+1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/ushio2580/Maze_Laberinto_6x6.git
    cd Maze_Laberinto_6x6
    ```
-2. **Install dependencies:**
+2. **Instalar dependencias:**
    ```bash
    pip install gym torch imageio matplotlib numpy
    ```
 
-## Usage
+---
 
-1. Open `Maze_Laberinto_6x6.ipynb` in Google Colab or Jupyter.
-2. Run all cells to train and test agents.
-3. GIFs are saved in `dqn_training_gifs/`, `dqn_test_gifs/`, etc.
+## 🚀 Uso
 
-## Results
-
-*(Update after running)*
-
-- **DQN Test Episode**
-
-  ![DQN Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dqn/test_ep_1.gif)
-
-  **DQN**: Success Rate: 100%, Avg Steps: 10.00
-
-- **Dyna-Q Test Episode**
-
-  ![Dyna-Q Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dynaq/test_ep_1.gif)
-
-  **Dyna-Q**: Success Rate: 100%, Avg Steps: 10.00
-
-## License
-
-MIT License
+1. Abre `Maze_Laberinto_6x6.ipynb` en Google Colab o Jupyter Notebook.
+2. Ejecuta todas las celdas para entrenar y probar los agentes.
+3. Los GIFs generados se guardarán en las carpetas:
+   - `dqn_training_gifs/`
+   - `dqn_test_gifs/`
+   - `dynaq_training_gifs/`
+   - `dynaq_test_gifs/`
 
 ---
 
-### Steps to Get Started
+## 📊 Resultados
 
-1. **Run Notebook:**  
-   Execute the provided notebook in Colab (or local Jupyter) to generate results and GIFs.
+*(Actualiza esta sección después de ejecutar el entrenamiento y las pruebas.)*
 
-2. **Upload Files:**  
-   Ensure that you push the `Maze_Laberinto_6x6.ipynb` file along with the generated GIF folders (e.g., `dqn_training_gifs/`, `dqn_test_gifs/`) to your repository.
+### 📡 **DQN - Episodio de prueba**
 
-3. **Update this README:**  
-   Modify the results section as new metrics become disponibles after running your experiments.
-```
+![DQN Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dqn/test_ep_1.gif)
+
+- **DQN**: Tasa de éxito: **100%**, Promedio de pasos: **10.00**
 
 ---
 
-### Cómo Funciona
+### 🤖 **Dyna-Q - Episodio de prueba**
 
-- **Sección de Instalación:** Explica cómo clonar el repositorio e instalar las dependencias.
-- **Uso:** Indica cómo abrir y ejecutar el notebook.
-- **Resultados:** Incluye dos GIFs (para DQN y Dyna-Q) con los links *raw* para que se muestren correctamente en GitHub.  
-- **License y Steps:** Se detalla paso a paso lo que debe hacerse para arrancar el proyecto.
+![Dyna-Q Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dynaq/test_ep_1.gif)
 
-Simplemente guarda este contenido en `README.md` y súbelo a GitHub. De esta forma tendrás un README profesional para tu repositorio.
+- **Dyna-Q**: Tasa de éxito: **100%**, Promedio de pasos: **10.00**
+
+---
+
+## 📝 Licencia
+
+Este proyecto está licenciado bajo los términos de la **Licencia MIT**. Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+## 🎯 Pasos para Empezar
+
+1. **Ejecutar el Notebook:**  
+   Abre y ejecuta `Maze_Laberinto_6x6.ipynb` en Google Colab o Jupyter Notebook para generar los resultados y los GIFs.
+
+2. **Subir archivos generados:**  
+   Asegúrate de subir el archivo `Maze_Laberinto_6x6.ipynb` junto con las carpetas generadas (`dqn_training_gifs/`, `dqn_test_gifs/`, `dynaq_training_gifs/`, etc.) al repositorio.
+
+3. **Actualizar el README:**  
+   Modifica la sección de **Resultados** después de obtener métricas actualizadas al ejecutar nuevos experimentos.
+
+---
+
+## 📚 Referencias
+
+- [DQN (Deep Q-Network)](https://www.nature.com/articles/nature14236)
+- [Dyna-Q Algorithm](https://www.cs.cmu.edu/~./mmv/papers/95-1.pdf)
