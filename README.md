@@ -1,27 +1,27 @@
 
-# Maze Laberinto 6x6
+# Maze Labyrinth 6x6
 
-Proyecto de aprendizaje por refuerzo comparando **DQN** y **Dyna-Q** en un laberinto de 6x6.
+Reinforcement learning project comparing **DQN** and **Dyna-Q** in a 6x6 maze.
 
-## 📦 Instalación
+## 📦 Installation
 
-1. **Clonar el repositorio:**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/ushio2580/Maze_Laberinto_6x6.git
    cd Maze_Laberinto_6x6
    ```
-2. **Instalar dependencias:**
+2. **Install dependencies:**
    ```bash
    pip install gym torch imageio matplotlib numpy
    ```
 
 ---
 
-## 🚀 Uso
+## 🚀 Usage
 
-1. Abre `Maze_Laberinto_6x6.ipynb` en Google Colab o Jupyter Notebook.
-2. Ejecuta todas las celdas para entrenar y probar los agentes.
-3. Los GIFs generados se guardarán en las carpetas:
+1. Open `Maze_Laberinto_6x6.ipynb` in Google Colab or Jupyter Notebook.
+2. Run all cells to train and test the agents.
+3. The generated GIFs will be saved in the following folders:
    - `dqn_training_gifs/`
    - `dqn_test_gifs/`
    - `dynaq_training_gifs/`
@@ -29,46 +29,46 @@ Proyecto de aprendizaje por refuerzo comparando **DQN** y **Dyna-Q** en un laber
 
 ---
 
-## 📊 Resultados
+## 📊 Results
 
-*(Actualiza esta sección después de ejecutar el entrenamiento y las pruebas.)*
+*(Update this section after running training and tests.)*
 
-### 📡 **DQN - Episodio de prueba**
+### 📡 **DQN - Test Episode**
 
 ![DQN Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dqn/test_ep_1.gif)
 
-- **DQN**: Tasa de éxito: **100%**, Promedio de pasos: **10.00**
+- **DQN**: Success rate: **100%**, Average steps: **10.00**
 
 ---
 
-### 🤖 **Dyna-Q - Episodio de prueba**
+### 🤖 **Dyna-Q - Test Episode**
 
 ![Dyna-Q Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dynaq/test_ep_1.gif)
 
-- **Dyna-Q**: Tasa de éxito: **100%**, Promedio de pasos: **10.00**
+- **Dyna-Q**: Success rate: **100%**, Average steps: **10.00**
 
 ---
 
-## 📝 Licencia
+## 📝 License
 
-Este proyecto está licenciado bajo los términos de la **Licencia MIT**. Consulta el archivo `LICENSE` para más detalles.
-
----
-
-## 🎯 Pasos para Empezar
-
-1. **Ejecutar el Notebook:**  
-   Abre y ejecuta `Maze_Laberinto_6x6.ipynb` en Google Colab o Jupyter Notebook para generar los resultados y los GIFs.
-
-2. **Subir archivos generados:**  
-   Asegúrate de subir el archivo `Maze_Laberinto_6x6.ipynb` junto con las carpetas generadas (`dqn_training_gifs/`, `dqn_test_gifs/`, `dynaq_training_gifs/`, etc.) al repositorio.
-
-3. **Actualizar el README:**  
-   Modifica la sección de **Resultados** después de obtener métricas actualizadas al ejecutar nuevos experimentos.
+This project is licensed under the terms of the **MIT License**. See the `LICENSE` file for more details.
 
 ---
 
-## 📚 Referencias
+## 🎯 Getting Started
+
+1. **Run the Notebook:**  
+   Open and run `Maze_Laberinto_6x6.ipynb` in Google Colab or Jupyter Notebook to generate the results and GIFs.
+
+2. **Upload generated files:**  
+   Make sure to upload the `Maze_Laberinto_6x6.ipynb` file along with the generated folders (`dqn_training_gifs/`, `dqn_test_gifs/`, `dynaq_training_gifs/`, etc.) to your repository.
+
+3. **Update the README:**  
+   Modify the **Results** section after obtaining updated metrics from running new experiments.
+
+---
+
+## 📚 References
 
 - [DQN (Deep Q-Network)](https://www.nature.com/articles/nature14236)
 - [Dyna-Q Algorithm](https://www.cs.cmu.edu/~./mmv/papers/95-1.pdf)
