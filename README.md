@@ -35,7 +35,7 @@ Reinforcement learning project comparing **DQN** and **Dyna-Q** in a 6x6 maze.
 
 ### 📡 **DQN - Test Episode**
 
-![DQN Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dqn/test_ep_1.gif)
+![DQN Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dqn/dnq-loop.gif)
 
 - **DQN**: Success rate: **100%**, Average steps: **10.00**
 
