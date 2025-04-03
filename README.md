@@ -35,7 +35,7 @@ Reinforcement learning project comparing **DQN** and **Dyna-Q** in a 6x6 maze.
 
 ### 📡 **DQN - Test Episode**
 
-![DQN Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/5a98f5d741a59047d0e23e7a18d0a923b9e57a6c/assets/dqn/dnq-loop.gif)
+![DQN Test Episode](https://raw.githubusercontent.com/ushio2580/Maze_Laberinto_6x6/a8c237ba92682ad0a3fd8644e05d93aff4680f8d/assets/dqn/dnq-loop.gif)
 
 https://github.com/ushio2580/Maze_Laberinto_6x6/blob/a8c237ba92682ad0a3fd8644e05d93aff4680f8d/assets/dqn/dnq-loop.gif
 
